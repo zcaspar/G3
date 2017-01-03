@@ -13,7 +13,7 @@
 				<pricelist PRICELISTPICTUREPATH="C:\ProgramData\Schueco\SchueCal\User\Local\PricelistGeneration"></pricelist>
 			</addins>
 			<contacts DIRECTORY="C:\ProgramData\Schueco\SchueCal\User\Local\Contacts"></contacts>
-			<schuecal2000 HIDECALCDATAMESSAGES="0" ENABLEEXCHANGEARTICLES="0" MIXEDVENDOR="0" OLDWINTERGARDENSYSTEMS="0" P2D_ACTIVATE="0" SHOWINSERTDOORINFILLCOMMAND="0" USEDIN_EN_12519="1" ALLOWTRACE="0" DISABLEACCELERATIONATI="1" CATALOGRESEARCHDRIVE="Docu Center - Online" CATALOGRESEARCHREADERPATH="" ACTIVATECATALOGRESEARCH="1" DEFAULTLANGUAGE="49" DISPLAYITEMTEXT="1" HOMEDIRECTORY="C:\Program Files (x86)\Schueco\Schuecal" OUTPUTDIRECTORY="C:\ProgramData\Schueco\SchueCal\Output" P2D_FILESTORE="0" PROJECTTYPE="0" SCRIPTDIRECTORY="C:\Program Files (x86)\Schueco\Schuecal\Scripts" TEMPLATEDIRECTORY="C:\ProgramData\Schueco\SchueCal\System\Data\Templates" USERSCRIPTDIRECTORY="C:\ProgramData\Schueco\SchueCal\User\Local\UserDefinedOutlineTemplates" USERTFOUTPUT="1" ZIPDIRECTORY="C:\ProgramData\Schueco\SchueCal\System\Data\ZipDaten" ELEMENTDIRECTORY="C:\ProgramData\Schueco\SchueCal\User\Local\Element" ENABLEONLINEORDER="" ALLOWFREEDESIGN="" EXPORTFABRICATIONLIST="" GASKETBOX="0" WORKBENCHPATH="C:\ProgramData\Schueco\Schuecal\Workbench_G3.xml" WK2_NL="0" TBMWITHOUTDOORLOCK="0" CALCSURFACEUSA="0" APPLICATIONBUILDNR="4804" HIDEARTICLEWEIGHT="0" SHOWEDVCODE="0" WERKSVERBUND2FARBIG="0" AKSCE="0" VULCFRAMEPRICEDETAIL="0" CYLINDER_22="0" CATALOGURL1="http://127.0.0.1:4001/search_de.php?searchText=" CATALOGURL2="&amp;searchSerie=&amp;searchCat=&amp;LID=&amp;chkBoxBestell=on&amp;chkBoxFertigung=on&amp;chkBoxArchitekten=on" ActivateCatalogNetworkResearch="0" USERSTATISTICS="1" MCNEW="1">
+			<schuecal2000 OLDWINTERGARDENSYSTEMS="0" P2D_ACTIVATE="0" SHOWINSERTDOORINFILLCOMMAND="0" USEDIN_EN_12519="1" ALLOWTRACE="0" DISABLEACCELERATIONATI="1" CATALOGRESEARCHDRIVE="Docu Center - Online" CATALOGRESEARCHREADERPATH="" ACTIVATECATALOGRESEARCH="1" DEFAULTLANGUAGE="49" DISPLAYITEMTEXT="1" HOMEDIRECTORY="C:\Program Files (x86)\Schueco\Schuecal" OUTPUTDIRECTORY="C:\ProgramData\Schueco\SchueCal\Output" P2D_FILESTORE="0" PROJECTTYPE="0" SCRIPTDIRECTORY="C:\Program Files (x86)\Schueco\Schuecal\Scripts" TEMPLATEDIRECTORY="C:\ProgramData\Schueco\SchueCal\System\Data\Templates" USERSCRIPTDIRECTORY="C:\ProgramData\Schueco\SchueCal\User\Local\UserDefinedOutlineTemplates" USERTFOUTPUT="1" ZIPDIRECTORY="C:\ProgramData\Schueco\SchueCal\System\Data\ZipDaten" ELEMENTDIRECTORY="C:\ProgramData\Schueco\SchueCal\User\Local\Element" ENABLEONLINEORDER="" ALLOWFREEDESIGN="" EXPORTFABRICATIONLIST="" GASKETBOX="0" WORKBENCHPATH="C:\ProgramData\Schueco\Schuecal\Workbench_G3.xml" WK2_NL="0" TBMWITHOUTDOORLOCK="0" CALCSURFACEUSA="0" APPLICATIONBUILDNR="4804" HIDECALCDATAMESSAGES="0" ENABLEEXCHANGEARTICLES="0" MIXEDVENDOR="0" HIDEARTICLEWEIGHT="0" SHOWEDVCODE="0" WERKSVERBUND2FARBIG="0" AKSCE="0" VULCFRAMEPRICEDETAIL="0" HIDECLASSICCONFIGS="1" OFFERWITHFITTINGDETAILS="1" CYLINDER_22="0" USERSTATISTICS="1">
 				<cprsettings></cprsettings>
 				<databases>
 					<availableedvcodes CONNECTSTRING="Provider=MSDASQL;" DIRECTORY="C:\ProgramData\Schueco\SchueCal\System\Data" DONOTREMOVEDSN="1" DSNPREFIX="G3_" ODBCDRIVER="Microsoft Access Driver (*.mdb)" ODBCPARAMETER="DSN=%s|DefaultDir=%s|DBQ=%s||" PASSWORD="" PHYSICALNAME="AvailableEdvCodes.mdb" USERNAME=""></availableedvcodes>
@@ -42,9 +42,13 @@
 					<output DIRECTORY="C:\ProgramData\Schueco\SchueCal\System\Data" PHYSICALNAME="Output.mdb" CONNECTSTRING="Provider=Microsoft.Jet.OLEDB.4.0;" ODBCPARAMETER="DSN=%s|DefaultDir=%s|DBQ=%s||" ODBCDRIVER="Microsoft Access Driver (*.mdb)" DSNPREFIX="G3_"></output>
 				</databases>
 				<epdsettings EMAILCONTACT="epdinfo@schueco.com"></epdsettings>
-				<erpisprojectsettings REGISTERED="0" USERNAME="" PASSWORD="" TABLE="" DBNAME=""></erpisprojectsettings>
 				<ngc GEE="27"></ngc>
-				<trial VALIDATIONKEY="1e77-948a-56f6-64a7-2828-a7cb-23df-542d"/></schuecal2000>
+				<erpisprojectsettings REGISTERED="0" USERNAME="" PASSWORD="" TABLE="" DBNAME=""></erpisprojectsettings>
+				<logging MODE="1" USE_LOG_INDENTING="1" USE_SYSTIME="1" USE_MSEC="0" LOG_CACHE_FLUSH_INTERVAL_IN_SECS="">
+					<modules ALLOW=""></modules>
+					<levels ALLOW=""></levels>
+				</logging>
+			</schuecal2000>
 		</schueco>
 	</software>
 </settings>
